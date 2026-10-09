@@ -1,0 +1,7 @@
+interface:
+  display_name: "科研项目协作助手"
+  short_description: "从方向澄清到代码实现、研究方案、答辩PPT与论文插图"
+  brand_color: "#8C2C38"
+  default_prompt: "Use $research-project-copilot to clarify my research idea, improve the implementation, and produce beginner-friendly documentation or visuals."
+policy:
+  allow_implicit_invocation: true
