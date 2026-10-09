@@ -83,19 +83,19 @@ flowchart LR
 
 ### 多阶段研究流程
 
-![多阶段研究流程参考：数据、方法和解释分区](assets/flow-reference-04.jpg)
+![多阶段研究流程参考：数据、方法和解释分区](assets/flow-reference-04-cropped.png)
 
 这种布局适合“多源数据 → 方法构建 → 验证与解释”的研究路线。不同阶段用边框和浅色区域区分，模块之间通过箭头表达关系；实际生成时替换为你的研究内容。
 
 ### 神经网络与控制模块
 
-![神经网络与控制模块的结构关系参考](assets/flow-reference-01.jpg)
+![神经网络与控制模块的结构关系参考](assets/flow-reference-01-cropped.png)
 
 这种布局适合展示不同网络模块、输入输出以及训练阶段。若缺少关键连接、层结构或验证方式，技能会先追问，避免仅凭视觉补全科学关系。
 
 ### 论文数据图参考
 
-<img src="assets/data-figure-reference-03.jpg" alt="多面板数据图参考，包括模型评估和特征解释" width="480">
+<img src="assets/data-figure-reference-03-cropped.png" alt="多面板数据图参考，包括模型评估和特征解释" width="480">
 
 数据图使用 Python 从真实数据绘制。参考图可帮助确定多面板组织方式、图例与统计标注；局部差异不易辨认时，选择合适的放大小窗或局部分面，并保留清楚的坐标范围。
 
