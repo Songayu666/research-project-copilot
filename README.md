@@ -80,9 +80,9 @@ flowchart LR
 
 ## 论文数据图示例
 
-下面的图片用于展示论文数据图的多面板组织、连续色带、图例和统计标注方式。图片已经裁去原始截图的黑边，只保留图表内容；它是用户提供的视觉参考，不是本技能生成的科研结果，图中的数据也不会被用于其他项目。
+下面的图片用于展示论文数据图的多面板组织、连续色带、图例和统计标注方式。它是用户提供的视觉参考，不是本技能生成的科研结果，图中的数据也不会被用于其他项目。
 
-<img src="assets/data-figure-reference-03-cropped.png" alt="论文数据图版式参考：多面板模型评估、特征解释与统计图" width="720">
+<img src="assets/paper-data-figure-reference.jpg" alt="论文数据图版式参考：研究框架、多面板流程图与机制示意" width="720">
 
 实际生成数据图时，会使用用户提供的真实数据和 Python/R 绘图代码，并根据差异大小决定是否加入局部放大图。
 
@@ -151,7 +151,7 @@ research-project-copilot/
 ├── scripts/
 └── assets/
     ├── palette-reference.png
-    └── data-figure-reference-03-cropped.png
+    └── paper-data-figure-reference.jpg
 ```
 
 `references/` 保存工作流规范，`scripts/validate_deliverables.py` 用于检查 Markdown、页面图片和生成记录，`assets/` 保存用户提供的默认色板与裁剪后的论文数据图版式参考。
