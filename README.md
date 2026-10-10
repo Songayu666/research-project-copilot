@@ -78,6 +78,14 @@ flowchart LR
 
 </details>
 
+## 论文数据图示例
+
+下面的图片用于展示论文数据图的多面板组织、连续色带、图例和统计标注方式。图片已经裁去原始截图的黑边，只保留图表内容；它是用户提供的视觉参考，不是本技能生成的科研结果，图中的数据也不会被用于其他项目。
+
+<img src="assets/data-figure-reference-03-cropped.png" alt="论文数据图版式参考：多面板模型评估、特征解释与统计图" width="720">
+
+实际生成数据图时，会使用用户提供的真实数据和 Python/R 绘图代码，并根据差异大小决定是否加入局部放大图。
+
 ## 内容与证据约束
 
 | 标签 | 含义 | 可以怎样表述 |
@@ -141,10 +149,12 @@ research-project-copilot/
 ├── agents/openai.yaml
 ├── references/
 ├── scripts/
-└── assets/palette-reference.png
+└── assets/
+    ├── palette-reference.png
+    └── data-figure-reference-03-cropped.png
 ```
 
-`references/` 保存工作流规范，`scripts/validate_deliverables.py` 用于检查 Markdown、页面图片和生成记录，`assets/` 仅保留用户提供的默认色板。版式采用文字化布局规则，不在公开仓库中再分发第三方论文截图。
+`references/` 保存工作流规范，`scripts/validate_deliverables.py` 用于检查 Markdown、页面图片和生成记录，`assets/` 保存用户提供的默认色板与裁剪后的论文数据图版式参考。
 
 ## 使用示例
 
@@ -192,4 +202,4 @@ research-project-copilot/
 
 ## 开源许可
 
-本项目采用 [MIT License](LICENSE) 开源。你可以使用、复制、修改、合并、发布和分发本项目，但需保留原始版权声明和许可证文本。
+除单独注明的参考图片外，本项目采用 [MIT License](LICENSE) 开源。你可以使用、复制、修改、合并、发布和分发本项目，但需保留原始版权声明和许可证文本。论文数据图示例仅用于展示视觉参考，不包含在 MIT 授权范围内。
